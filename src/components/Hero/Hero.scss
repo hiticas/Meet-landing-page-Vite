@@ -1,0 +1,150 @@
+.hero {
+	overflow: hidden;
+	margin-bottom: var(--space-400);
+
+	.logo {
+		display: block;
+		margin: 0 auto;
+		padding-top: var(--space-700);
+	}
+
+	.hero-content-mobile {
+		position: relative;
+		padding-top: var(--space-800);
+    padding-bottom: var(--space-500);
+
+		.image-hero-right, .image-hero-left {
+			width: 50%;
+		}
+
+		.image-hero-left {
+			margin-left: calc(-1 * var(--space-200));
+		}
+
+		.image-hero-right {
+			position: absolute;
+    	right: calc(-1 * var(--space-200));
+		}
+	}
+
+  .hero-content {
+    .image-hero-right, .image-hero-left {
+      display: none;
+    }
+
+		.middle {
+			max-width: 410px;
+    	margin: 0 auto;
+
+			.title {
+				text-align: center;
+				padding: 0 var(--space-900) var(--space-300);
+			}
+			
+			.subtitle {
+				text-align: center;
+				padding-bottom: var(--space-300);
+			}
+
+			.buttons {
+				display: flex;
+				flex-direction: column;
+				gap: var(--space-200);
+				align-items: center;
+
+				button {
+					width: fit-content;
+				}
+			}
+		}
+  }
+}
+
+@media (min-width: 768px) {
+	.hero {
+		margin-bottom: var(--space-800);
+		.hero-content-mobile {
+			padding-bottom: var(--space-900);
+		}
+
+		.hero-content {
+			.middle {
+				.title {
+					padding: 0 var(--space-700) var(--space-300);
+				}
+
+				.buttons {
+					flex-direction: row;
+				}
+			}
+		}
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.hero {
+		.logo {
+			padding-top: var(--space-1000);
+		}
+
+    .hero-content-mobile {
+      display: none;
+    }
+
+    .hero-content {
+			display: flex;
+			justify-content: center;
+			padding-top: var(--space-1000);
+			position: relative;
+
+			.middle {
+				width: 450px;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				gap: var(--space-400);
+
+				.title, .subtitle {
+					padding: 0;
+				}
+
+				.buttons {
+					display: flex;
+					justify-content: center;
+					gap: var(--space-200);
+				}
+			}
+
+      .image-hero-right, .image-hero-left {
+        display: block;
+				position: absolute;
+				height: 200px;
+      }
+
+			.image-hero-left {
+				left: calc(-1 * var(--space-200));
+			}
+
+			.image-hero-right {
+				right: calc(-1 * var(--space-200));
+				bottom: 0;
+			}
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+	.hero {
+    .hero-content {
+			padding-bottom: var(--space-300);
+      .image-hero-right, .image-hero-left {
+				height: 300px;
+      }
+
+			.image-hero-left {
+				top: var(--space-800);
+			}
+    }
+  }
+}
