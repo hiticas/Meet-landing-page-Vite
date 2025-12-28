@@ -9,11 +9,15 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <main className="app">
-      <Hero />
+      <header>
+        <Hero />
+      </header>
       <SectionCounter label="01" />
       <FirstSection />
       <SectionCounter label="02" />
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </main>
   )
 }
