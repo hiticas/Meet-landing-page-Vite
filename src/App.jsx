@@ -2,12 +2,17 @@ import './App.scss'
 import Hero from './components/Hero/Hero'
 import Button from './ui-components/Button/Button'
 import Typography from './ui-components/Typography/Typography'
+import SectionCounter from './ui-components/SectionCounter/SectionCounter'
 
 function App() {
   return (
     <main className="app">
       <Hero />
-      
+      <SectionCounter label="01" />
+      <h1>Section2</h1>
+      <SectionCounter label="02" />
+      <h1>Footer</h1>
+
       <div className="design-system">
         <Typography as="h1" type="preset-1">Group Chat for Everyone</Typography>
         <Typography as="h2" type="preset-2">Group Chat for Everyone</Typography>

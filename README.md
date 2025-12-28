@@ -17,6 +17,12 @@ A simple solution to the Frontend Mentor **Meet landing page** challenge.
 
 Follow these steps to run the project locally or build it for production.
 
+### Clone the Repository
+```bash
+git clone https://github.com/hiticas/Meet-landing-page-Vite.git
+cd Meet-landing-page-Vite
+```
+
 ### Installation
 ```bash
 npm install

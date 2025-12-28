@@ -1,6 +1,6 @@
 .hero {
 	overflow: hidden;
-	margin-bottom: var(--space-400);
+	margin-bottom: var(--space-800);
 
 	.logo {
 		display: block;
@@ -62,7 +62,7 @@
 
 @media (min-width: 768px) {
 	.hero {
-		margin-bottom: var(--space-800);
+		margin-bottom: 120px;
 		.hero-content-mobile {
 			padding-bottom: var(--space-900);
 		}
