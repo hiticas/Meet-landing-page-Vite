@@ -15,7 +15,7 @@ function Footer() {
       <div class="overlay">
         <Typography className="title" as="h2" type="preset-2">Experience more together</Typography>
         <Typography className="description" type="preset-4">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</Typography>
-        <Button variant="purple" aria-label="Download Meet version 1.3">
+        <Button variant="purple">
           <Typography as="span" type="preset-5" color="white">Download</Typography>
           <Typography as="span" type="preset-5" color="purple">v1.3</Typography>
         </Button>
