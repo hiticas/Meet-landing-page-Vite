@@ -3,13 +3,14 @@ import Hero from './components/Hero/Hero'
 import Button from './ui-components/Button/Button'
 import Typography from './ui-components/Typography/Typography'
 import SectionCounter from './ui-components/SectionCounter/SectionCounter'
+import FirstSection from './components/FirstSection/FirstSection'
 
 function App() {
   return (
     <main className="app">
       <Hero />
       <SectionCounter label="01" />
-      <h1>Section2</h1>
+      <FirstSection />
       <SectionCounter label="02" />
       <h1>Footer</h1>
 
@@ -21,7 +22,7 @@ function App() {
         <Typography type="preset-5">Group Chat for Everyone</Typography>
         <Button variant="blue">
           <Typography type="preset-5" color="white">Download</Typography>
-          <Typography type="preset-5" color="cyan">v1.3</Typography>
+          <Typography type="preset-5" color="cyan-300">v1.3</Typography>
         </Button>
 
         <Button variant="purple">

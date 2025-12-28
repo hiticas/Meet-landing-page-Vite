@@ -21,7 +21,7 @@ function Hero() {
           <div className="buttons">
             <Button variant="blue">
               <Typography type="preset-5" color="white">Download</Typography>
-              <Typography type="preset-5" color="cyan">v1.3</Typography>
+              <Typography type="preset-5" color="cyan-300">v1.3</Typography>
             </Button>
             <Button variant="purple">
               <Typography type="preset-5" color="white">What is it?</Typography>
